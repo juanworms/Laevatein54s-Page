@@ -110,6 +110,11 @@ p + ul {
     font-weight: 600;
 }
 
+#footer> img {
+    width: 30px;
+    height: 30px;
+}
+
 footer {
     text-align: center;
     width: 100%;
