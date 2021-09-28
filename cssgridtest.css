@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+}
+
+#myheader {
+    
+    text-align: center;
+    font-size: large;
+    max-height: 5%;
+}
+
+
+
+nav{
+    background: #eeac61;
+    text-align: center;
+    font-size: large;
+    max-height: 15%;
+}
+
+#galeria {
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+}
+
+#galeria3x3 {
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+}
+
+#galeria img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#galeria img:hover {
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+#menu_expand {
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    border: dotted;
+}
+
+#itemlargo {
+    grid-row: 1 / 3;
+}
+h1{
+    text-align: center;
+}
+
+#Descripcion {
+    border-left: 6px solid grey;
+}
+
+
+a:hover {
+    color: red;
+}
+
+article {  
+    position: relative;
+    
+    background: hsl(0, 10%, 41%);
+    margin: 1em;
+    border: dashed;
+    height: auto;
+}
+/*
+main>section>article>img {
+    margin: 0.2em;
+    float: left;
+    height: auto;
+    width: 25%;
+}*/
+
+
+
+section {
+    margin: 10px;
+    background: #6655bb;
+    border: double;
+}
+
+summary { 
+    margin: 0.5em;
+}
+
+p {
+    margin: 0.5em;
+    font-weight: bold;
+}
+
+p + ul {
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background: rgb(34, 3, 3);
+    bottom: 0;
+    color: white;
+}
