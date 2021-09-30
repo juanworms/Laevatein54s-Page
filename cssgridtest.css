@@ -60,6 +60,10 @@ nav{
 #itemlargo {
     grid-row: 1 / 3;
 }
+
+#itemlargoo {
+    grid-column: 1 /3;
+}
 h1{
     text-align: center;
 }
@@ -69,13 +73,20 @@ h1{
 }
 
 
-a:hover {
-    color: red;
+nav a:hover {
+    animation:movimiento 5s;
+    text-decoration: none;
+}
+
+@keyframes movimiento
+{
+0%   {background:#eeac61; }
+50%  {background:blue; color: #eeac61;}
+100% {background:#eeac61; }
 }
 
 article {  
     position: relative;
-    
     background: hsl(0, 10%, 41%);
     margin: 1em;
     border: dashed;
@@ -110,9 +121,10 @@ p + ul {
     font-weight: 600;
 }
 
-#footer> img {
-    width: 30px;
-    height: 30px;
+#footer img {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
 }
 
 footer {
