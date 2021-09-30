@@ -47,6 +47,10 @@ nav{
     transform: scale(1.5);
 }
 
+a {
+    color: blue
+}
+
 #menu_expand {
     padding: 1rem;
     margin: 0 auto;
@@ -69,7 +73,7 @@ h1{
 }
 
 #Descripcion {
-    border-left: 6px solid grey;
+    border-left: 3px solid grey;
 }
 
 
