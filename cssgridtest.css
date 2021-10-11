@@ -78,7 +78,7 @@ h1{
 
 
 nav a:hover {
-    animation:movimiento 5s;
+    animation:movimiento 2.5s;
     text-decoration: none;
 }
 
