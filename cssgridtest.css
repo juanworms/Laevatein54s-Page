@@ -48,7 +48,10 @@ nav{
 }
 
 a {
-    color: blue
+    color: rgb(48, 48, 109);
+    
+    font-size: large;
+    max-height: 15%;
 }
 
 #menu_expand {
@@ -121,7 +124,9 @@ p {
     font-weight: bold;
 }
 
-p + ul {
+
+
+p  {
     font-weight: 600;
 }
 
