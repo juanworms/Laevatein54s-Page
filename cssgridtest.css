@@ -9,8 +9,6 @@ body {
     max-height: 5%;
 }
 
-
-
 nav{
     background: #eeac61;
     text-align: center;
@@ -99,14 +97,6 @@ article {
     border: dashed;
     height: auto;
 }
-/*
-main>section>article>img {
-    margin: 0.2em;
-    float: left;
-    height: auto;
-    width: 25%;
-}*/
-
 
 
 section {
@@ -122,17 +112,19 @@ summary {
 p {
     margin: 0.5em;
     font-weight: bold;
-}
-
-
-
-p  {
     font-weight: 600;
 }
+
 
 #footer img {
     width: 32px;
     height: 32px;
+    margin: 10px;
+}
+
+#tecnologias img {
+    width: 64px;
+    height: 64px;
     margin: 10px;
 }
 
@@ -142,4 +134,8 @@ footer {
     background: rgb(34, 3, 3);
     bottom: 0;
     color: white;
+}
+
+.table > tbody > tr > td{
+    vertical-align: middle;
 }
