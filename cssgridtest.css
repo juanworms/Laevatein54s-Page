@@ -92,7 +92,7 @@ nav a:hover {
 
 article {  
     position: relative;
-    background: hsla(0, 10%, 41%, 0.514);
+    background: hsla(0, 10%, 41%, 0.5);
     margin: 1em;
     border: dashed;
     height: auto;
