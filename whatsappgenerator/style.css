@@ -1,0 +1,44 @@
+body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#main {
+    background-color: rgba(165, 42, 58, 0.253);
+    margin-top: 5%;
+    border: dashed;
+    justify-content: center;
+}
+
+footer {
+    
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  a {
+      background-color: aquamarine;
+  }
+
+  p {
+      justify-content: center;
+      text-align: center;
+      font-weight: 800;
+  }
+
+  img {
+      vertical-align:bottom;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

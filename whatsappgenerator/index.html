@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Generate WhatsApp URL generator custom text phone">
+    <meta name="keywords" content="WhatsApp URL generator">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSX0ENYENW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KSX0ENYENW');
+    </script>
+    <title>WhatsApp URL generator</title>
+</head>
+
+<body>
+    <script src="./js/copyToClipboard.js"></script>
+    <div class="container">
+        <div class="row" id="main">
+            <div class="col-3">
+                <img class="rounded mx-auto d-block img-fluid" src="./icons/ws.png" alt="">
+                
+            </div>
+            <div class="col-10">
+                <p>Whatsapp URL generator</p>
+                <div>
+                    <form ref="formulario">
+                        <div class="input-group">
+                            <span class="input-group-text">Phone</span>
+                            <input type="number" class="form-control" placeholder="Phone" id="phone" required class="noscroll">
+                        </div>
+                        <p class="text-secondary">(CountryCode)(City)(Number) Example "5491100000000"</p>
+                        <div class="input-group mb-3">
+                            <textarea  class="form-control" placeholder="Message" id="message"></textarea>
+                        </div>
+                        
+                        <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary" title="Guardar registro" onclick="makeURL()" >
+                            Generate
+                        </button>
+                    </div>
+                    </form>
+                    <input type="text"  class="form-control" id="result" placeholder="URL" disabled>
+                    <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-info" onclick="copyToClipboard()">Copy to Clipboard</button><br>
+                    
+                </div>
+                <span class="d-flex justify-content-center">[Adsense here]</span></div>
+            </div>
+        </div>
+    </div>
+    <div>
+    <footer>
+        <span>Diseño a cargo de <a href="http://www.laevatein54.com.ar">Laevatein54</a> , considere <a href="https://linktr.ee/laevatein54"> Donar</a></span> <br>
+        <span>Estas PyMes, Confian en mi:</span><br>
+        <a href="http://laevatein54.com.ar/Contacto.html"> <p> Su ad/icono aqui</a>
+    </footer>
+</div>
+</body>
+
+</html>
