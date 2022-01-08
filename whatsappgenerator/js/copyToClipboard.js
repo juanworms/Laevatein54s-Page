@@ -1,6 +1,6 @@
 function copyToClipboard() {
     elementId = document.getElementById("result");
-    
+    btn = document.getElementById("btn");
     // Create a "hidden" input
     var aux = document.createElement("input");
   
@@ -15,7 +15,7 @@ function copyToClipboard() {
   
     // Copy the highlighted text
     document.execCommand("copy");
-  
+    btn.innerText = "Copied!";
     // Remove it from the body
     document.body.removeChild(aux);
     console.log("Sucess");
@@ -23,7 +23,7 @@ function copyToClipboard() {
 
   function makeURL() {
     elementId = document.getElementById("result");
-
+    btn = document.getElementById("btn");
     finalUrl = "https://api.whatsapp.com/send?";
     phone = document.getElementById("phone").value;
     msg = encodeURI (document.getElementById("message").value);
@@ -35,4 +35,5 @@ function copyToClipboard() {
     }
 
     elementId.setAttribute("value", finalUrl);
+    btn.innerText = "Copy to Clipboard";
   }
