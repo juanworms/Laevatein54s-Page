@@ -92,7 +92,7 @@ nav a:hover {
 
 article {  
     position: relative;
-    background: hsla(0, 10%, 41%, 0.5);
+    background: #63b872;
     margin: 1em;
     border: dashed;
     height: auto;
@@ -101,7 +101,7 @@ article {
 
 section {
     margin: 10px;
-    background: #6655bb;
+    background: #cd0012;
     border: double;
 }
 
@@ -131,7 +131,7 @@ p {
 footer {
     text-align: center;
     width: 100%;
-    background: rgb(34, 3, 3);
+    background: grey;
     bottom: 0;
     color: white;
 }
@@ -139,4 +139,11 @@ footer {
 
 .table > tbody > tr > td{
     vertical-align: middle;
+}
+
+#working {
+    background-color: grey;
+
+    border-color: white;
+    z-index: 1;
 }
