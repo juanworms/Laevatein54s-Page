@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #myheader {
@@ -10,7 +10,7 @@ body {
 }
 
 nav{
-    background: #eeac61;
+    background: #8AD0D6;
     text-align: center;
     font-size: large;
     max-height: 15%;
@@ -92,7 +92,7 @@ nav a:hover {
 
 article {  
     position: relative;
-    background: #63b872;
+    background: #69B1BE;
     margin: 1em;
     border: dashed;
     height: auto;
@@ -101,7 +101,7 @@ article {
 
 section {
     margin: 10px;
-    background: #cd0012;
+    background: #2E5C62;
     border: double;
 }
 
@@ -131,7 +131,7 @@ p {
 footer {
     text-align: center;
     width: 100%;
-    background: grey;
+    background: #444444;
     bottom: 0;
     color: white;
 }
