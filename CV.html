@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="cssgridtest.css"> -->
     <link rel="stylesheet" href="cssgridtest3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSX0ENYENW"></script>
      <script>
@@ -19,7 +19,7 @@
         gtag('js', new Date());
 
         gtag('config', 'G-KSX0ENYENW');
-    </script>
+    </script>- Google Analytics -->
     <style>
         @import url('http://fonts.cdnfonts.com/css/futura-std-4');
 </style>        
@@ -38,33 +38,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <!--
-    <nav class="row">
-        <div class="col">
-            <a class="stretched-link">CV extendido</a>
-        </div>
-        <div class="col">
-            <a href="#exp" class="stretched-link">Experiencia</a>
-        </div>
-        <div class="col">
-            <a href="#vol" class="stretched-link">Voluntariado</a>
-        </div>
-        <div class="col">
-            <a href="#Lenguajes" class="stretched-link">Lenguajes de programación</a>
-        </div>
-        <div class="col">
-            <a href="#frecuent" class="stretched-link">Tecnologías Frecuentes</a>
-        </div>
-        <div class="col">
-            <a href="#knows" class="stretched-link">Tecnologías Conocidas</a>
-        </div>
-        <div class="col">
-            <a href="#portfolio" class="stretched-link">Portafolio</a>
-        </div>
-        <div class="col">
-            <a href="#footer" class="stretched-link">Redes Sociales</a>
-        </div>
-    </nav> -->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,19 +51,19 @@
               <a class="nav-link" href="#">Perfil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#exp">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lenguajes de programación</a>
+                <a class="nav-link" href="#Lenguajes">Lenguajes de programación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tecnologías</a>
+                <a class="nav-link" href="#frecuent">Tecnologías</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portafolio</a>
+                <a class="nav-link" href="#portfolio">Portafolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Idiomas</a>
+                <a class="nav-link" href="#idiomas">Idiomas</a>
               </li>
           </ul>
           
@@ -110,7 +84,19 @@
             </article>
 
             <article>
-                <h1 id="exp"> Experiencia</h1><br>
+                <h1 id="exp">Experiencia*</h1><br>
+                <ul>
+                    <li>
+                        <p> <a href="https://umzugwings.de/"> UmzugWings</a> (Alemania) 2022</p>
+                    </li>
+                    <details>
+                        <summary>Consultor IT y administración de WordPress</summary>
+                        <ul>
+                            <li>Asesoramiento de tecnologías de la información</li>
+                            <li>Administración y edición de plugins de WordPress</li>
+                        </ul>
+                    </details>
+                </ul>
                 <ul>
                     <li>
                         <p> Aves Argentinas (CABA) 2022</p>
@@ -165,7 +151,7 @@
                         Atención al cliente, verificación y mantenimiento de los equipos, manejo de caja.
                     </details>
                 </ul>
-                <h1 id="vol">Experiencia Ad Honorem</h1><br>
+                <h1 id="vol">Experiencia Ad Honorem*</h1><br>
                 <ul>
                     <li>
                         <p>
@@ -208,8 +194,10 @@
                                 href="https://www.interactionstudios.com/chickeninvaders5.php"> Chicken invaders 5</a> ,
                             indicando mejoras según uso.
                         </summary>
-                    </details>
+                    </details><hr>
+                    <h6>*Solicitar referencias por correo electrónico</h6> 
                 </ul>
+                
             </article>
             <article>
                 <h1 id="Lenguajes">Lenguajes de programación</h1>
@@ -217,9 +205,9 @@
                     <thead>
                         <tr>
                             <th style="width: 5%"> Lenguaje</th>
-                            <th style="width: 5%"> Nombre</th>
-                            <th style="width: 30%"> Nivel</th>
-                            <th style="width: 60%"> Descripción</th>
+                            <th style="width: 3%"> Nombre</th>
+                            <th style="width: 92%"> Nivel</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -232,11 +220,10 @@
                                         style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                         100%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Mas de 3 años usando este lenguaje a nivel académico, alta comprensión de tipos de
                                     dato y manejo de memoria. Manipulación de hardware embebido (Arduino)</p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/python.png" alt="" srcset=""> </th>
@@ -246,11 +233,10 @@
                                     <div class="progress-bar progress-bar-striped" role="progressbar"
                                         style="width: 50%">50%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Usado principalmente para realizar Bots de telegram, manipulación rápida de datos y
                                     ejecución de macros/automatizaciones </p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/lua.png" alt="" srcset=""> </th>
@@ -260,11 +246,10 @@
                                     <div class="progress-bar progress-bar-striped bg-info " role="progressbar"
                                         style="width: 30%">30%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Scripting lenguaje que use para desarrollar videojuegos en el framework <a
-                                        href="https://love2d.org/" class="">Love2D</a> </p>
+                                    href="https://love2d.org/" class="">Love2D</a> </p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/html.png"> <img class="img-fluid"
@@ -275,11 +260,10 @@
                                     <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
                                         style="width: 30%">30%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Se uso aproximadamente 6 meses a nivel académico. Maqueado básico de paginas WEB,
                                     creación de estilos, animaciones básicas y terrible elección de colores.</p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/Pharo.png"> </th>
@@ -289,11 +273,10 @@
                                     <div class="progress-bar progress-bar-striped" role="progressbar"
                                         style="width: 20%">20%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Se uso aproximadamente 3 meses a nivel académico. Conocimiento total sobre la
                                     operación en paradigma de objetos.</p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/GMS2.png"> </th>
@@ -303,15 +286,14 @@
                                     <div class="progress-bar progress-bar-striped bg-info " role="progressbar"
                                         style="width: 20%">20%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> Lenguaje usado en el software <a href="https://www.yoyogames.com/en/gamemaker"> Game
-                                        Maker Studio 2</a>. Uso moderado incluyendo toda la lógica básica, modelado,
-                                    manipulación de archivos locales, websocket (UDP/TCP), inserción de publicidad por
-                                    medio de AdMob. <a
-                                        href="https://play.google.com/store/apps/details?id=com.laevatein54.cftw">Conquest
-                                        for the WIFI</a> fue creado con este software</p>
+                                    Maker Studio 2</a>. Uso moderado incluyendo toda la lógica básica, modelado,
+                                manipulación de archivos locales, websocket (UDP/TCP), inserción de publicidad por
+                                medio de AdMob. <a
+                                    href="https://play.google.com/store/apps/details?id=com.laevatein54.cftw">Conquest
+                                    for the WIFI</a> fue creado con este software</p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/js.png" alt="" srcset=""> </th>
@@ -321,13 +303,12 @@
                                     <div class="progress-bar progress-bar-striped" role="progressbar"
                                         style="width: 20%">20%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p> 6 meses de experiencia aplicados en NodeJS y JS sobre browser. Mis conocimientos
                                     incluyen el uso de Express, creación de REST APIs, <a
                                         href="https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API"> IndexDB.</a>
                                 </p>
                             </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/Java.png" alt="" srcset=""> </th>
@@ -337,12 +318,23 @@
                                     <div class="progress-bar progress-bar-striped" role="progressbar"
                                         style="width: 20%">20%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p>6 meses de uso a nivel académico en un proyecto con patron de diseño <a
-                                        href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93presentador">MVC</a>,
-                                    encargado del uso de JavaFX (UX/UI) </p>
+                                    href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93presentador">MVC</a>,
+                                encargado del uso de JavaFX (UX/UI) </p>
                             </td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row"> <img class="img-fluid" src="./icons/php.png" alt="" srcset=""> </th>
+                            <td> PHP</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar"
+                                        style="width: 20%">20%</div>
+                                </div>
+                                <p>Actualmente creando un sistema de gestión de consorcio (Incluye uso de $_SESSION, Bases de datos relacionales, login y alta de contenido),Asistencias esporádicas a estudiantes de UTN </p>
+                            </td>
+                            
                         </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/haskell.png" alt="" srcset=""> </th>
@@ -352,24 +344,11 @@
                                     <div class="progress-bar progress-bar-striped" role="progressbar"
                                         style="width: 10%">10%</div>
                                 </div>
-                            </td>
-                            <td>
                                 <p>Asistencias esporádicas a estudiantes de Ciencias Exactas </p>
                             </td>
+
                         </tr>
-                        <tr>
-                            <th scope="row"> <img class="img-fluid" src="./icons/php.png" alt="" srcset=""> </th>
-                            <td> PHP</td>
-                            <td>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar"
-                                        style="width: 10%">10%</div>
-                                </div>
-                            </td>
-                            <td>
-                                <p>Asistencias esporádicas a estudiantes de UTN </p>
-                            </td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </article>
@@ -425,6 +404,7 @@
                     <abbr title="MySQL"><img src="./icons/mysql.png" alt=""></abbr>
                     <abbr title="NodeJS"><img src="./icons/nodejs.png" alt=""></abbr>
                     <abbr title="Love2D"><img src="./icons/love2d.png" alt=""></abbr>
+                    <abbr title="Wordpress"><img src="./icons/Wordpress-icon.png" alt="" srcset=""></abbr>
                 </div>
             </article>
 
@@ -433,6 +413,11 @@
                 <h1 id="portfolio"> Portafolio</h1>
                 <div class="row">
                     <div class="col-sm-3">
+                        <a onmouseover="mostrarPestaña('CPOS')">
+                            <p>
+                                <span class="badge badge-secondary">Nuevo</span>C for PoS
+                            </p>
+                        </a>
                         <a onmouseover="mostrarPestaña('wsgenerator')">
                             <p>
                                 WhatsApp Generator
@@ -478,7 +463,27 @@
 
                     </div>
                     <div id="Descripcion" class="col-md-9">
+                        <div id="CPOS" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h2> C for POS</h2>
+                            </div>
 
+
+                            <p>
+                                Codigo simulador de operaciones para un Point Of Sale (AKA PosNet).
+                                <br>
+                            </p>
+                            <h3>Tecnologías usadas</h3>
+                            <ul>
+                                <li>C</li>
+                                <li>Valgrind y GDB</li>
+                            </ul>
+                            <div class="row justify-content-center">
+                                <a href="https://github.com/juanworms/studious-dollop"> Visitar repositorio</a>
+                            </div>
+                            <hr>
+
+                        </div>
                         <div id="cftw" style="display: none;">
                             <div class="row justify-content-center">
                                 <h2> Conquest for the WIFI</h2>
@@ -752,7 +757,7 @@
             </article>
 
             <article>
-                <h1>Idiomas</h1>
+                <h1 id="idiomas">Idiomas</h1>
                 <ul>
                     <li>
                         <p>Español - Nivel nativo</p>
@@ -764,7 +769,7 @@
                                 Escrito - Intermedio
                             </li>
                             <li>
-                                Oral - Básico
+                                Oral - Intermedio
                             </li>
                     </li>
                 </ul>
@@ -794,9 +799,8 @@
         </div>
         <div class="row">
             <div class="col justify-content-center">
-                <h6>diseño a cargo de Juan B</h6>
-                <p class="text-center"> "We could all use a helping hand sometime!" - Mercy
-                </p>
+                <h6>diseño a cargo de <a href="Contacto.html"> Juan B</a></h6>
+                
             </div>
         </div>
     </footer>

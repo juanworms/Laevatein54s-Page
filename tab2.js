@@ -8,6 +8,7 @@ function mostrarPestaña (pesta)
     div6 = document.getElementById('AlgoChess');
     div7 = document.getElementById('Espeis');
     div8 = document.getElementById('HashenC');
+    div9 = document.getElementById('CPOS');
 
     div1.style.display = 'none';
     div2.style.display = 'none';
@@ -17,7 +18,7 @@ function mostrarPestaña (pesta)
     div6.style.display = 'none';
     div7.style.display = 'none';
     div8.style.display = 'none';
-    
+    div9.style.display = 'none';
 
 
     console.log(pesta);

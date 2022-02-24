@@ -10,10 +10,14 @@ body {
 }
 
 nav{
+    overflow: hidden;
     background: #2a292e;
     text-align: center;
     font-size: large;
     max-height: 15%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 #galeria {
@@ -68,7 +72,7 @@ a {
 #itemlargoo {
     grid-column: 1 /3;
 }
-h1{
+h1, h2, h3, th, h4, h5, h6{
     text-align: center;
     color: #ffffff;
     font-family: 'Futura Std', sans-serif;
@@ -81,7 +85,7 @@ h1{
 
 
 nav a:hover {
-    animation:movimiento 2.5s;
+    
     text-decoration: none;
 }
 
@@ -119,6 +123,10 @@ p {
   color: #ffffff;
 }
 
+table + p {
+    text-align: left;
+    text-justify: auto;
+}
 
 #footer img {
     width: 32px;
@@ -155,3 +163,9 @@ footer {
 ul, li, td {
     color: #ffffff;
 }
+
+.progress {
+    background-color: #aaa;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
