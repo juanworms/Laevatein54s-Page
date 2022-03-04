@@ -21,9 +21,9 @@
       }
       else {
         resultwindow.value = "Request enviada";
-        torequest.value = urlAPI + "action=" + action + "&appkey=" + appkey + "&debug=1"  + "&pilot_firstname=" + username + "&pilot_phone=" + phone + "&pilot_mail=" + mail + "&pilot_contact_type_id=" + contact_type + "&pilot_business_type_id=" + business_type + "&pilot_car_brand=" + marca + "&pilot_car_model=" + modelo + "&pilot_suborigin_id=" + origen + "&pilot_notes=" + notas;
+        torequest.value = urlAPI + "action=" + action + "&appkey=" + appkey + "&pilot_firstname=" + username + "&pilot_phone=" + phone + "&pilot_mail=" + mail + "&pilot_contact_type_id=" + contact_type + "&pilot_business_type_id=" + business_type + "&pilot_car_brand=" + marca + "&pilot_car_model=" + modelo + "&pilot_suborigin_id=" + origen + "&pilot_notes=" + notas;
         torequest.value =encodeURI(torequest.value);
-        enviarAPI(torequest);
+        //enviarAPI(torequest);
       }
   }
 
@@ -35,3 +35,7 @@ function enviarAPI(torequest){
         
     })   
 }
+
+function openInNewTab() {
+  window.open(document.getElementById("torequest").value, '_blank').focus();
+ }

@@ -13,6 +13,9 @@
 <body>
     <div class="container">
         <form class="needs-validation" novalidate>
+            <div class="col">
+                <input type="reset">
+        </div>
             <!--- 
             action*
             appkey*
@@ -93,12 +96,17 @@
             </div>
         </div>
         
-            
+        
         </form>
         <div class="row">
             <div class="col">
-                    <button class="btn btn-primary" onclick="submit()">Subir</button>
+                    <button class="btn btn-primary" onclick="submit()">Generar URL</button>
             </div>
+            <div class="col">
+                <button class="btn btn-primary" onclick="openInNewTab()">Subir Form</button>
+        </div>
+        
+            
         </div>
         <hr>
         <div class="row">
