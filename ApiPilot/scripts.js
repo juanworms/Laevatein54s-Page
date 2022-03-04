@@ -16,8 +16,8 @@
       resultwindow = document.getElementById("resultwindow");
       torequest = document.getElementById("torequest");
       if (username == '' || phone == ''){
-        resultwindow.value = "Username y password deben tener contenido"
-        console.log("Nombre y usuario no pueden ser vacios");
+        resultwindow.value = "Username y Telefono deben tener contenido"
+        console.log("Nombre y usuario no pueden ser vacíos");
       }
       else {
         resultwindow.value = "Request enviada";
