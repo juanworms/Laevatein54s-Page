@@ -9,6 +9,7 @@ function mostrarPestaña (pesta)
     div7 = document.getElementById('Espeis');
     div8 = document.getElementById('HashenC');
     div9 = document.getElementById('CPOS');
+    div10 = document.getElementById('Api');
 
     div1.style.display = 'none';
     div2.style.display = 'none';
@@ -19,7 +20,7 @@ function mostrarPestaña (pesta)
     div7.style.display = 'none';
     div8.style.display = 'none';
     div9.style.display = 'none';
-
+    div10.style.display = 'none';
 
     console.log(pesta);
     divSeleccionado = document.getElementById(pesta);

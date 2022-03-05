@@ -16,17 +16,6 @@
             <div class="col">
                 <input type="reset">
         </div>
-            <!--- 
-            action*
-            appkey*
-            -pilot_username*
-            -pilot_mail
-            pilot_contact_type_id* (Electronico,2, 3)
-            pilot_business_type_id* ()
-            -pilot_phone*
-            pilot_suborigin_id* (los 4 tipos de ID)
-            pilot_notes
-            -->
             <div class="row">
                 <div class="col">
                     <label for="validationCustom01" class="form-label">action</label>
@@ -34,7 +23,7 @@
                 </div>
                 <div class="col">
                     <label for="validationCustom01" class="form-label">API KEY</label>
-                    <input type="password" class="form-control" id="appkey"  value= "F25E1040-1F7D-49D7-855F-7C6D70323742" disabled>
+                    <input type="password" class="form-control" id="appkey"  value= "" disabled>
                 </div>
             </div>
             <div class="row" >
@@ -100,9 +89,11 @@
         </form>
         <div class="row">
             <div class="col">
+                    <label for=""> (1)</label>
                     <button class="btn btn-primary" onclick="submit()">Generar URL</button>
             </div>
             <div class="col">
+                <label for=""> (2)</label>
                 <button class="btn btn-primary" onclick="openInNewTab()">Subir Form</button>
         </div>
         
@@ -113,7 +104,7 @@
             <label> Consulta API a enviar</label>
             <textarea name="" id="torequest" rows="2" disabled readonly></textarea>
         </div>
-            
+
             <hr>
             <div class="row">
                 <label> Resultado de la consulta</label>
