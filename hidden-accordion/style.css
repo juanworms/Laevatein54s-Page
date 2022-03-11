@@ -23,15 +23,6 @@
     transition: max-height 0.2s ease-out;
   }
 
-  footer {
-    text-align: center;
-    position: absolute;
-  bottom: 0;
-  width: 100%;
-    background: #444444;
-    color: white;
-}
-
 .inside {
   height: 50px;
 }
