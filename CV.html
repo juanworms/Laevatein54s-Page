@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="cssgridtest.css"> -->
     <link rel="stylesheet" href="cssgridtest3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Global site tag (gtag.js) -->
+    <!-- Global site tag (gtag.js) 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSX0ENYENW"></script>
      <script>
@@ -96,6 +96,14 @@
                             <li>Administración, edición de plugins, creador de contenidos y diseñador UX/UI WordPress</li>
                             <li>Especialista en<a href="https://formidableforms.com/"> Formidable Forms</a></li>
                         </ul>
+                    </details>
+                </ul>
+                <ul>
+                    <li>
+                        <p> <a href="https://www.sendai.com.ar"> Sendai</a> (Buenos Aires) 2022</p>
+                    </li>
+                    <details>
+                        <summary>Diseño de folleteria para enviar por correo electronico</summary>
                     </details>
                 </ul>
                 <ul>
@@ -439,14 +447,19 @@
                 <h1 id="portfolio"> Portafolio</h1>
                 <div class="row">
                     <div class="col-sm-3">
+                        <a onmouseover="mostrarPestaña('sendai')">
+                            <p>
+                                <span class="badge badge-secondary">Nuevo</span> Folleteria Frontier
+                            </p>
+                        </a>
                         <a onmouseover="mostrarPestaña('Api')">
                             <p>
-                                <span class="badge badge-secondary">Nuevo</span> <del> Frontend para API</del>
+                                 <del> Frontend para API</del>
                             </p>
                         </a>
                         <a onmouseover="mostrarPestaña('CPOS')">
                             <p>
-                                <span class="badge badge-secondary">Nuevo</span>C for PoS
+                                C for PoS
                             </p>
                         </a>
                         <a onmouseover="mostrarPestaña('wsgenerator')">
@@ -494,6 +507,26 @@
 
                     </div>
                     <div id="Descripcion" class="col-md-9">
+                        <div id="sendai" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h2> Folleteria Sendai</h2>
+                            </div>
+                            <p>
+                                Diseño de folleteria. Uso de GIMP como herramienta.
+                                <br>
+                            </p>
+                            <img src="./diseniografico/pag1_page-0001.jpg" class="img-fluid" style="width: 25%">
+                            <img src="./diseniografico/pag5_page-0001.jpg" class="img-fluid" style="width: 25%">
+                            <h3>Tecnologías usadas</h3>
+                            <ul>
+                                <li>GIMP</li>
+                            </ul>
+                            <div class="row justify-content-center">
+                                <a href="./diseniografico/Nissan Frontier.pdf"> Ver PDF</a>
+                            </div>
+                            <hr>
+
+                        </div>
                         <div id="Api" style="display: none;">
                             <div class="row justify-content-center">
                                 <h2> Frontend para API</h2>
@@ -502,6 +535,9 @@
                                 Formulario para generación de Request URL para interactuar con una API externa
                                 <br>
                             </p>
+                            <span class="row justify-content-center">
+                                <img src="./CVimages/frontendapi.png" class="img-fluid" >
+                            </span >
                             <h3>Tecnologías usadas</h3>
                             <ul>
                                 <li>HTML / CSS</li>

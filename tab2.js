@@ -10,6 +10,8 @@ function mostrarPestaña (pesta)
     div8 = document.getElementById('HashenC');
     div9 = document.getElementById('CPOS');
     div10 = document.getElementById('Api');
+    div11 = document.getElementById('sendai');
+
 
     div1.style.display = 'none';
     div2.style.display = 'none';
@@ -21,6 +23,7 @@ function mostrarPestaña (pesta)
     div8.style.display = 'none';
     div9.style.display = 'none';
     div10.style.display = 'none';
+    div11.style.display = 'none';
 
     console.log(pesta);
     divSeleccionado = document.getElementById(pesta);
