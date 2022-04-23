@@ -1,5 +1,7 @@
 function mostrarPestaña (pesta) 
 {
+    
+
 	div1 = document.getElementById('wsgenerator');
     div2 = document.getElementById('ToDo');
     div3 = document.getElementById('cftw');
@@ -11,7 +13,7 @@ function mostrarPestaña (pesta)
     div9 = document.getElementById('CPOS');
     div10 = document.getElementById('Api');
     div11 = document.getElementById('sendai');
-
+    div12 = document.getElementById('FFPDF');
 
     div1.style.display = 'none';
     div2.style.display = 'none';
@@ -24,6 +26,8 @@ function mostrarPestaña (pesta)
     div9.style.display = 'none';
     div10.style.display = 'none';
     div11.style.display = 'none';
+    div12.style.display = 'none';
+    
 
     console.log(pesta);
     divSeleccionado = document.getElementById(pesta);
