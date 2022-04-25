@@ -1,7 +1,5 @@
 function mostrarPestaña (pesta) 
 {
-    
-
 	div1 = document.getElementById('wsgenerator');
     div2 = document.getElementById('ToDo');
     div3 = document.getElementById('cftw');
@@ -28,9 +26,10 @@ function mostrarPestaña (pesta)
     div11.style.display = 'none';
     div12.style.display = 'none';
     
-
+    
     console.log(pesta);
     divSeleccionado = document.getElementById(pesta);
     console.log(divSeleccionado);
     divSeleccionado.style.display = 'block';
+    document.getElementById(pesta).scrollIntoView();
 }

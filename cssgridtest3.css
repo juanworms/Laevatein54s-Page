@@ -134,7 +134,7 @@ table + p {
     margin: 10px;
 }
 
-#tecnologias img {
+.tecnologias img {
     width: 64px;
     height: 64px;
     margin: 10px;
