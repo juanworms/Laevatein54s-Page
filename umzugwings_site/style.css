@@ -1,0 +1,50 @@
+@font-face {
+    font-family: acmeNormal;
+    src: url(./assets/Acme\ Gothic\ Font\ Family/Acme\ Gothic\ Condensed\ Semi\ Bold.otf);
+  }
+
+* {
+    font-family: acmeNormal;
+}
+
+nav {
+    background-color: #db9704;
+}
+nav + div {
+    color: #fffff3;
+}
+footer {
+    background-color: #2d2f3f;
+    color: #fffff3;
+}
+.footer2 {
+    background-color: #1b1c26;
+}
+.main {
+    color: #fffff3;
+    background-image: url("./assets/header1.jpg");
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.row {
+    border: none;
+}
+
+.col {
+    border: none;
+}
+
+a {
+    color: #fffff3;
+    text-decoration: none;
+}
+
+.debug {
+    border: dotted;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}

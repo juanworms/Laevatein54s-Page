@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <!-- Global site tag (gtag.js) -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSX0ENYENW"></script>
-     <script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -22,7 +22,7 @@
     </script>
     <style>
         @import url('http://fonts.cdnfonts.com/css/futura-std-4');
-    </style>
+    </style> 
     <title>Laeavatein54 CV</title>
 </head>
 
@@ -68,7 +68,7 @@
                     <a class="nav-link" href="#idiomas">Idiomas</a>
                 </li>
             </ul>
-
+            <span style="color: grey;">Ultima actualizacion: </span> <span style="color: grey;" id="lastupdated"> Disabled </span>
         </div>
     </nav>
 
@@ -91,10 +91,12 @@
                         <h1 id="exp">Experiencia*</h1><br>
                         <ul>
                             <li>
-                                <p> <a href="https://www.fktech.net/"> FK{tech}</a> (Buenos Aires) (Mayo 2022 - Actual)</p>
+                                <p> <a href="https://www.fktech.net/"> FK{tech}</a> (Buenos Aires) (Mayo 2022 - Actual)
+                                </p>
                             </li>
                             <details>
-                                <summary> Manteniemiento y actualizacion de Software para <a href="https://www.arcosdorados.com/">Arcos Dorados</a>
+                                <summary> Manteniemiento y actualizacion de Software para <a
+                                        href="https://www.arcosdorados.com/">Arcos Dorados</a>
                                 </summary>
                                 <ul>
                                     <li>
@@ -291,10 +293,14 @@
                     <div class="col-sm-3">
                         <h3>Projectos</h3>
                         <h6>Click para ver - <del>Tachado</del> significa no actualmente operacional</h6>
+                        <a onclick="mostrarPestaña('umzugwings')">
+                            <p>
+                                <span class="badge badge-secondary">Nuevo</span> Clon del sitio umzugwings.de
+                            </p>
+                        </a>
                         <a onclick="mostrarPestaña('FFPDF')">
                             <p>
-                                <span class="badge badge-secondary">Nuevo</span> <span
-                                    class="badge badge-danger">HOT</span> Formidable Forms a PDF
+                                <span class="badge badge-warning">HOT</span> Formidable Forms a PDF
                             </p>
                         </a>
                         <a onclick="mostrarPestaña('sendai')">
@@ -358,6 +364,42 @@
                     </div>
                     <span id="visor"></span>
                     <div id="Descripcion" class="col-md-9">
+                        <div id="umzugwings" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h2>Clon del sitio umzugwings.de</h2>
+                            </div>
+                            <p>
+                                Umzugwings es una empresa alemana de mudanzas, el mismo esta contruido sobre el CMS
+                                Wordpress.
+                                Esta tecnologia facilita a los usuarios son experiencias a realizar un sitio web
+                                autogestionable, pero impide a los desarrolladores crear experiencias completas que
+                                permitan hacer un uso completo del entorno o del potencial de los estandares actuales de
+                                internet. <br></p>
+                            
+                            <p>
+                                Para ello se desarrollo un sitio clon para dar una dexperiencia de usuario identica a la
+                                original pero que permite a cualquier equipo especializado en frontend manipular
+                                libremente lo que se muestra al usuario.
+                                <br>
+                            </p>
+                            <h3>Tecnologías usadas</h3>
+                            <ul>
+                                <li>HTML / CSS</li>
+                                <li>Boostrap</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col d-flex justify-content-end">
+                                    <a href="./umzugwings_site/index.html"> Visitar sitio
+                                        Clon</a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://umzugwings.de/"> Visitar sitio Oficial</a>
+                                </div>
+                                <img src="./CVimages/clonsite.jpg" class="img-fluid">
+                            </div>
+                            <hr>
+
+                        </div>
                         <div id="FFPDF" style="display: none;">
                             <div class="row justify-content-center">
                                 <h2> Formidable Forms a PDF (aka presupuestador)</h2>
@@ -420,14 +462,10 @@
                                         <h6>Resultado</h6>
                                         <span class="">
                                             <img src="./CVimages/chrome_QxjT0vpYLh.png" class="img-fluid">
-                                            <img src="./CVimages/Umzugsangebot (2)_page-0001.jpg"
-                                                class="img-fluid">
-                                                <img src="./CVimages/Umzugsangebot (2)_page-0002.jpg"
-                                                class="img-fluid">
-                                                <img src="./CVimages/Umzugsangebot (2)_page-0003.jpg"
-                                                class="img-fluid">
-                                                <img src="./CVimages/Umzugsangebot (2)_page-0004.jpg"
-                                                class="img-fluid">
+                                            <img src="./CVimages/Umzugsangebot (2)_page-0001.jpg" class="img-fluid">
+                                            <img src="./CVimages/Umzugsangebot (2)_page-0002.jpg" class="img-fluid">
+                                            <img src="./CVimages/Umzugsangebot (2)_page-0003.jpg" class="img-fluid">
+                                            <img src="./CVimages/Umzugsangebot (2)_page-0004.jpg" class="img-fluid">
                                         </span>
                                     </div>
 
@@ -833,6 +871,22 @@
 
                         </tr>
                         <tr>
+                            <th scope="row"> <img class="img-fluid" src="./icons/js.png" alt="" srcset=""> </th>
+                            <td> Javascript</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped" role="progressbar"
+                                        style="width: 50%">50%</div>
+                                </div>
+                                <p> 1 año de experiencia aplicados en NodeJS y JS sobre browser. Mis conocimientos
+                                    incluyen el uso de Express, <a
+                                        href="https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API"> IndexDB,
+                                        creación de REST APIs, ABMs/CRUDs</a>
+                                </p>
+                            </td>
+
+                        </tr>
+                        <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/python.png" alt="" srcset=""> </th>
                             <td> Python</td>
                             <td>
@@ -845,21 +899,7 @@
                             </td>
 
                         </tr>
-                        <tr>
-                            <th scope="row"> <img class="img-fluid" src="./icons/js.png" alt="" srcset=""> </th>
-                            <td> Javascript</td>
-                            <td>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar"
-                                        style="width: 30%">30%</div>
-                                </div>
-                                <p> 1 año de experiencia aplicados en NodeJS y JS sobre browser. Mis conocimientos
-                                    incluyen el uso de Express,   <a
-                                        href="https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API"> IndexDB, creación de REST APIs, ABMs/CRUDs</a>
-                                </p>
-                            </td>
 
-                        </tr>
                         <tr>
                             <th scope="row"> <img class="img-fluid" src="./icons/lua.png" alt="" srcset=""> </th>
                             <td> Lua</td>
@@ -1026,6 +1066,7 @@
                             <abbr title="Jira"> <img src="./icons/atlassian_jira_logo_icon_170511.png" alt=""></abbr>
                             <abbr title="Confluence"><img src="./icons/atlassian-confluence-300x300.png" alt=""></abbr>
                             <abbr title="Sequelize"><img src="./icons/sequelize-icon.png" alt=""></abbr>
+                            <abbr title="Unity"> <img src="./icons/unity-icon-5.jpg" alt=""></abbr>
                         </div>
                     </div>
                 </div>
@@ -1039,13 +1080,16 @@
                         <p>Español - Nivel nativo</p>
                     </li>
                     <li>
-                        <p>Ingles</p>
+                        <p>Ingles (<a href="https://www.efset.org/cert/p3c4FB"> EFSET Certificate </a> ) </p>
                         <ul>
                             <li>
-                                Escrito - Intermedio
+                                Comprension auditiva: C2 Competente
                             </li>
                             <li>
-                                Oral - Intermedio
+                                Comprension lectora: B2 Intermedio Superior
+                            </li>
+                            <li>
+                                Oratoria: Intermedio
                             </li>
                     </li>
                 </ul>
@@ -1063,12 +1107,6 @@
             <a href="https://www.facebook.com/Laevatein54Dev">
                 <img src="./icons/facebook.png" class="img-fluid rounded-circle" alt="">
             </a>
-            <a href="https://www.instagram.com/laevatein54.dev/">
-                <img src="./icons/instagram.png" class="img-fluid rounded" alt="">
-            </a>
-            <!--<a href="http://www.twitter.com">
-                <img src="./icons/gorjeo.png" class="img-fluid " alt="">
-            </a>-->
             <a href="https://www.linkedin.com/in/juan-b-19279b184/">
                 <img src="./icons/linkedin-icon.png" alt="">
             </a>
@@ -1081,6 +1119,10 @@
         </div>
     </footer>
     <script src="tab2.js"></script>
+    <script>
+        var x = document.lastModified.split(' ')[0];
+            document.getElementById("lastupdated").innerHTML = String(x);
+    </script>
 </body>
 
 </html>
