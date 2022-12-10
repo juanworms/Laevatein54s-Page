@@ -12,10 +12,10 @@ function mostrarPestaña (pesta)
     div10 = document.getElementById('Api');
     div11 = document.getElementById('sendai');
     div12 = document.getElementById('FFPDF');
-    div13 = document.getElementById('Wordpress');
-    div14 = document.getElementById('umzugwings');
+    div13 = document.getElementById('umzugwings');
+    div14 = document.getElementById('Wordpress');
     
-
+    
 
     div1.style.display = 'none';
     div2.style.display = 'none';
