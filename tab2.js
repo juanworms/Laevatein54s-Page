@@ -12,7 +12,8 @@ function mostrarPestaña (pesta)
     div10 = document.getElementById('Api');
     div11 = document.getElementById('sendai');
     div12 = document.getElementById('FFPDF');
-    div13 = document.getElementById('umzugwings');
+    div13 = document.getElementById('Wordpress');
+    div14 = document.getElementById('umzugwings');
     
 
 
@@ -29,6 +30,7 @@ function mostrarPestaña (pesta)
     div11.style.display = 'none';
     div12.style.display = 'none';
     div13.style.display = 'none';
+    div14.style.display = 'none';
     
     console.log(pesta);
     divSeleccionado = document.getElementById(pesta);

@@ -105,6 +105,9 @@
                                     <li>
                                         Analisis y documentación segun norma ISO 9001-2015
                                     </li>
+                                    <li>
+                                        Implementacion de Hasar en POS
+                                    </li>
                                 </ul>
                             </details>
 
@@ -320,9 +323,14 @@
                     <div class="col-sm-3">
                         <h3>Projectos</h3>
                         <h6>Click para ver - <del>Tachado</del> significa no actualmente operacional</h6>
+                        <a onclick="mostrarPestaña('Wordpress')">
+                            <p>
+                                <span class="badge badge-secondary">Nuevo</span> Galeria de trabajos en Wordpress
+                            </p>
+                        </a>
                         <a onclick="mostrarPestaña('umzugwings')">
                             <p>
-                                <span class="badge badge-secondary">Nuevo</span> Clon del sitio umzugwings.de
+                                 Clon del sitio umzugwings.de
                             </p>
                         </a>
                         <a onclick="mostrarPestaña('FFPDF')">
@@ -391,6 +399,80 @@
                     </div>
                     <span id="visor"></span>
                     <div id="Descripcion" class="col-md-9">
+                        <div id="Wordpress" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h2> Galeria de colaboraciones en Wordpress</h2>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>
+                                        A continuacion se enumeran todas las colaboraciones que se realizaron en WordPress.
+                                        Usualmente los clientes ya poseen una solucion online de sus proyectos pero necesitan adiciones o modificaciones en los mismos. <br>
+                                        En su mayoria se utilizan Elementor o su competidor similar Optimizepress. 
+                                        Estos tipos de plugins, permiten que usuarios no avanzados puedan manipular contenidos sin conocimientos tecnicos.
+                                    </p>
+                                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                          <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                          <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                          <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./CVimages/Wordpress0.jpg" alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block" style="background: rgba(88, 85, 85, 0.9)">
+                                                <h5 >umzugwings.de</h5>
+                                                <p>Proyecto principal, configuracion completa. Implementacion de formularios con envio de correo electronico</p>
+                                              </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="./CVimages/Wordpress1.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block" style="background:rgba(88, 85, 85, 0.9)">
+                                                <h5 >acy-mc.de</h5>
+                                                <p>Creacion de paginas adicionales (localizacion), del Aleman al Español</p>
+                                              </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="./CVimages/wordpress2.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block" style="background: rgba(88, 85, 85, 0.9)">
+                                                <h5 >vanevelasquez.com</h5>
+                                                <p>Creacion de la galeria fotografica, retoques y conversiones de archivos.</p>
+                                              </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="./CVimages/wordpress3.jpg" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block" style="background: rgba(88, 85, 85, 0.9)">
+                                                <h5 >mfvarmeria.com</h5>
+                                                <p>Manipulacion del area de mapa</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+                                    <div class="row justify-content-center">
+                                        <h3>Tecnologías usadas</h3>
+                                    </div>
+                                    <ul>
+                                        <li>Wordpress</li>
+                                        <li>Elementor</li>
+                                        <li>optimizepress</li>
+                                        <li>FormidableForms</li>
+                                        <li>Photo Gallery</li>
+                                        <li>WPMail</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
                         <div id="umzugwings" style="display: none;">
                             <div class="row justify-content-center">
                                 <h2>Clon del sitio umzugwings.de</h2>
@@ -643,10 +725,6 @@
                             <hr>
 
                         </div>
-
-
-
-
                         <div id="RDC" style="display: none;">
                             <div class="row justify-content-center">
                                 <h2> Retro Digital Clock</h2>
